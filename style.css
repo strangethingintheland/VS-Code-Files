@@ -1,0 +1,29 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  div {
+    height: 300px;
+    width: 200px;  
+    border: 1.5px solid #00f;
+    border-radius: 8px;
+    
+  }
+  
+  .card div {
+    object-fit: contain;
+    
+  }
+  
+  body {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 10px;
+    grid-column-gap: 10px; /* set gap between columns */
+  }
+  #message {
+    position: absolute;
+    bottom: -20%;
+    font-size: 3vh;
+  }
